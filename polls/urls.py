@@ -18,4 +18,5 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
+    url(r't1$', views.t1, name='t1'),
 ]
