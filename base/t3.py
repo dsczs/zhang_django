@@ -21,3 +21,14 @@ elif v3 > 5:
     print(2)
 else:
     print(3)
+
+v5 = 10
+while v5 < 15:
+    print(v5)
+    v5 = v5 + 1
+else:
+    print("over")
+
+for i in range(10):
+    print(i)
+
