@@ -13,3 +13,10 @@ print(t3['name'])
 # dict遍历
 for (d,x) in t3.items():
     print("key:"+d+",value:"+str(x))
+
+print(t3.keys())
+
+for k in t3.keys():
+    print(type(k))
+    print("key:" + str(k))
+    print(t3[''+k])
