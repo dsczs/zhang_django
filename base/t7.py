@@ -1,3 +1,7 @@
-import base.function
+from base.function import *
+import isstring
 
-base.function.t2()
+
+a = 3
+t2()
+print(isstring.isstring(a))
