@@ -7,4 +7,7 @@ class User:
         self.age = age
 
     def __str__(self):
-        return "name:"+self.name+"age:"+str(self.age)
+        return "name:"+self.name+"\nage:"+str(self.age)
+
+    def setName(self,name):
+        self.name = name
